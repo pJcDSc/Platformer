@@ -373,6 +373,8 @@ public class PlatMain implements KeyListener, Runnable, ActionListener {
 	public void keyPressed(KeyEvent e) {
 		if(e.getKeyCode() == KeyEvent.VK_R) reset();
 		if(e.getKeyCode() == KeyEvent.VK_ESCAPE) exitGame();
+		if(e.getKeyCode() == KeyEvent.VK_SPACE) jump();
+		if(e.getKeyCode() == KeyEvent.VK_UP) jump();
 	}
 
 	@Override
